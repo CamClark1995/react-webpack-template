@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "sourceMap": true, // create source map files for emitted js files
+        "noImplicitAny": false, // enable error reporting for expressions with implied 'any'
+        // https://www.typescriptlang.org/docs/handbook/jsx.html#basic-usage
+        "jsx": "react", // allows us to use tsx files
+        "paths": { // allows us to import from src/ instead of relative path
+            "*": [
+                "./src/*"
+            ]
+        }
+    },
+    "include": [
+        "./src"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}

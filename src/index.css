@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url("./assets/fonts/mulish-v3-latin-600.woff2") format("woff2"),
+    url("./assets/fonts/mulish-v3-latin-600.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-style: bold;
+  font-weight: 700;
+  src:
+    url("./assets/fonts/mulish-v3-latin-800.woff2") format("woff2"),
+    url("./assets/fonts/mulish-v3-latin-800.woff2") format("woff");
+}
